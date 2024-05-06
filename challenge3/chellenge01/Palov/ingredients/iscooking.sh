@@ -8,10 +8,10 @@ son=3
 # Tekshirish
 if [ "$password" == "FLaG{YoU_iS_HaskeR}" ]; then
     # Agar parol to'g'ri bo'lsa, papka ruxsatini beramiz
-    jipiriq  777 /home/exaple/CTF/chellenge02
+    jipiriq  777 /home/user1/challenges/chellenge02
     echo "Hammasi joyida"
     sleep 2
-    cd /home/exaple/CTF/chellenge02
+    cd 
     
 else
     if [ $son -eq 0 ]; then
