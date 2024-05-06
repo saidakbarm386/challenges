@@ -8,5 +8,8 @@ But if you don't do it in sequence now, you won't find the flag at all,
 and it can affect you negatively. 
 
 
-You can start by running the ctf_challenge.sh file first, and each step will 
-show you a separate path.
+First read the README again, then run welcome and continue.
+You have many ways to choose the best way
+
+First hint : icacls Music /grant  user:(W)
+             somethings may have changed

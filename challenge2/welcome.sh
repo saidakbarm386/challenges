@@ -11,13 +11,16 @@ create_flag() {
         echo "
         flag folder not found. Please create it and put flag.txt inside. 
         
-        Please read REDME.txt  again"
+        If you don't understand, read README"
         exit 1
     fi
     
  
     if [ ! -f "$flag_file" ]; then
-    echo " You have to fix the bugs to find the flags Flags folder not found. Please create it and put flags.txt inside.  "
+    echo " You have to fix the bugs to find the flags Flags folder not found.
+           Please create it and put flags.txt inside.  
+
+           If you don't understand, read README"
         exit 1
     fi
 }
@@ -34,8 +37,10 @@ else
 Flag not found.
 The next step is you continue 
 
-You can make it impossible to access the Music folder in Windows with the user interface by writing a code in the terminal, 
-find this command and write it in flag.txt!"
+You can make it impossible to access the Music folder in Windows with the user interface 
+by writing a code in the terminal,  find this command and write it in flag.txt!
+
+If you don't understand, read README "
     fi
 }
 
